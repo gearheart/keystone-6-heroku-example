@@ -14,13 +14,12 @@
   },
   "formation": {
     "web": {
-      "quantity": 1,
-      "size": "free"
+      "quantity": 1
     }
   },
   "addons": [
     {
-      "plan": "heroku-postgresql:hobby-dev",
+      "plan": "heroku-postgresql:mini",
       "options": { "version": "13" }
     }
   ]
